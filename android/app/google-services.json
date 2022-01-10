@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "299086681013",
+    "project_id": "slideswipe",
+    "storage_bucket": "slideswipe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299086681013:android:3cbc5a5c3185cbb355fffc",
+        "android_client_info": {
+          "package_name": "com.example.swipe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299086681013-go8jlroouvrp1rqbv10dcfmi0b0rnm16.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSHb5NY_mCOhtcPc-7apVmdUWjoi1ctCw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299086681013-go8jlroouvrp1rqbv10dcfmi0b0rnm16.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

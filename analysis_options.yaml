@@ -1,0 +1,119 @@
+# https://dart.dev/guides/language/effective-dart#summary-of-all-rules
+# includes only the DOs and DON'Ts for now since they are most important
+# for documentation on any rule:
+# https://dart-lang.github.io/linter/lints/{paste_rule_name_here}.html
+# eg: https://dart-lang.github.io/linter/lints/camel_case_types.html
+
+linter:
+  rules:
+    - camel_case_types
+    - camel_case_extensions
+    - file_names
+    - library_names
+    - library_prefixes
+    - non_constant_identifier_names
+    - directives_ordering
+    - curly_braces_in_flow_control_structures
+    - slash_for_doc_comments
+    - comment_references
+    - prefer_relative_imports
+    - avoid_relative_lib_imports
+    - prefer_adjacent_string_concatenation
+    - prefer_collection_literals
+    - prefer_iterable_whereType
+    - prefer_equal_for_default_values
+    - prefer_mixin
+    - use_setters_to_change_properties
+    - prefer_initializing_formals
+    - empty_constructor_bodies
+    - use_rethrow_when_possible
+    - hash_and_equals
+    - implementation_imports
+    - prefer_is_not_empty
+    - prefer_is_empty
+    - unnecessary_lambdas
+    - avoid_init_to_null
+    - avoid_setters_without_getters
+    - unnecessary_getters_setters
+    - unnecessary_this
+    - type_init_formals
+    - unnecessary_new
+    - unnecessary_const
+    - avoid_catching_errors
+    - avoid_return_types_on_setters
+    - prefer_generic_function_type_aliases
+    - avoid_equals_and_hash_code_on_mutable_classes
+    - avoid_empty_else
+    - avoid_types_as_parameter_names
+    - cancel_subscriptions
+    - literal_only_boolean_expressions
+    - no_duplicate_case_values
+    - unnecessary_statements
+    - constant_identifier_names
+    - avoid_unnecessary_containers
+    - exhaustive_cases
+    - prefer_contains
+    # - parameter_assignments
+    # - prefer_if_null_operators
+    # - prefer_typing_uninitialized_variables
+    # - omit_local_variable_types
+
+analyzer:
+  errors:
+    todo: ignore
+    camel_case_types: error
+    camel_case_extensions: error
+    file_names: error
+    library_names: error
+    library_prefixes: error
+    non_constant_identifier_names: error
+    directives_ordering: error
+    curly_braces_in_flow_control_structures: error
+    slash_for_doc_comments: error
+    comment_references: error
+    prefer_relative_imports: error
+    avoid_relative_lib_imports: error
+    prefer_adjacent_string_concatenation: error
+    prefer_collection_literals: error
+    prefer_iterable_whereType: error
+    prefer_equal_for_default_values: error
+    prefer_mixin: error
+    use_setters_to_change_properties: error
+    prefer_initializing_formals: error
+    empty_constructor_bodies: error
+    use_rethrow_when_possible: error
+    hash_and_equals: error
+    implementation_imports: error
+    prefer_is_not_empty: error
+    prefer_is_empty: error
+    unnecessary_lambdas: error
+    avoid_init_to_null: error
+    avoid_setters_without_getters: error
+    unnecessary_getters_setters: error
+    unnecessary_this: error
+    type_init_formals: error
+    unnecessary_new: error
+    unnecessary_const: error
+    avoid_catching_errors: error
+    avoid_return_types_on_setters: error
+    prefer_generic_function_type_aliases: error
+    avoid_equals_and_hash_code_on_mutable_classes: error
+    avoid_empty_else: error
+    avoid_types_as_parameter_names: error
+    cancel_subscriptions: error
+    literal_only_boolean_expressions: error
+    no_duplicate_case_values: error
+    unnecessary_statements: error
+    constant_identifier_names: error
+    avoid_unnecessary_containers: error
+    exhaustive_cases: error
+    prefer_contains: error
+    missing_enum_constant_in_switch: error
+    # parameter_assignments: info
+    # prefer_if_null_operators: info
+    # prefer_typing_uninitialized_variables: info
+  exclude:
+    - FAliPlayer/**
+    - flutter_screen_recording/**
+    - lib/coga/**
+    - test/**
